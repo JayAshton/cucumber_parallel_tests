@@ -1,0 +1,9 @@
+local: FIG_NEWTON_FILE=local.yml -r features -r features/step_definitions -f pretty -f html -o "report/local - <%= Time.now.strftime("%H-%M_%d-%m-%Y") %>.html" -t "not @jira" -t 'not @wip' -t 'not @manual' --retry 1
+staging: FIG_NEWTON_FILE=staging.yml -r features -r features/step_definitions -f pretty -f html -o "report/local - <%= Time.now.strftime("%H-%M_%d-%m-%Y") %>.html" -t "not @jira" -t 'not @wip' -t 'not @manual' --retry 1
+prod: FIG_NEWTON_FILE=prod.yml -r features -r features/step_definitions -f pretty -f html -o "report/local - <%= Time.now.strftime("%H-%M_%d-%m-%Y") %>.html" -t "not @jira" -t 'not @wip' -t 'not @manual' --retry 1
+
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+firefox_headless: BROWSER=firefox_headless -t 'not @download'
+chrome_headless: BROWSER=chrome_headless -t 'not @download'
+grid: BROWSER=grid -t 'not @download' -t 'not @rupload'

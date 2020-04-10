@@ -1,0 +1,22 @@
+{
+  "local":{
+    "functional-user":{
+        "username":"user1",
+        "password":"UGFzc3dvcmQxKg=="
+      }
+    },
+
+  "staging":{
+    "functional-user":{
+      "username":"TBC",
+      "password":"TBC"
+    }
+  },
+
+  "prod":{
+    "functional-user": {
+        "username":"TBC",
+        "password":"TBC"
+    }
+  }
+}
