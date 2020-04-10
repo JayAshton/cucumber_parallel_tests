@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # gem 'mysql2'
 gem 'capybara'
-gem 'chromedriver-helper'
+gem 'chromedriver-helper', '1.2.0'
 gem 'crb'
 gem 'cucumber'
 gem 'fig_newton'
