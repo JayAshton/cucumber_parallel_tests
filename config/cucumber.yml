@@ -7,3 +7,4 @@ chrome: BROWSER=chrome
 firefox_headless: BROWSER=firefox_headless -t 'not @download'
 chrome_headless: BROWSER=chrome_headless -t 'not @download'
 grid: BROWSER=grid -t 'not @download' -t 'not @rupload'
+report: --format html --out report/report<%= ENV['TEST_ENV_NUMBER'] %>.html

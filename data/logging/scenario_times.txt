@@ -1,8 +1,8 @@
 Running against: local
-Started at: Fri, 10 Apr 2020 19:10:18
-5.267556 - Checkbox - Checkbox
-1.12504 - Input Form - Form Input 1
-0.753124 - Input Form - Form Input 2
-0.806249 - Input Form - Radio Male
-0.586071 - Input Form - Radio Female
-2.689016 - Input Form - Group radio buttons
+Started at: Sat, 11 Apr 2020 23:18:10
+6.818989 - Input Form - Form Input 1
+0.740496 - Input Form - Form Input 2
+7.760164 - Checkbox - Checkbox
+8.846745 - Input Form - Radio Male
+0.563112 - Input Form - Radio Female
+0.647057 - Input Form - Group radio buttons

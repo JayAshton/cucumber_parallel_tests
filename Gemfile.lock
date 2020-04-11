@@ -1,0 +1,157 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    archive-zip (0.12.0)
+      io-like (~> 0.3.0)
+    ast (2.4.0)
+    backports (3.17.1)
+    builder (3.2.4)
+    capybara (3.32.1)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (~> 1.5)
+      xpath (~> 3.2)
+    childprocess (3.0.0)
+    chromedriver-helper (1.2.0)
+      archive-zip (~> 0.10)
+      nokogiri (~> 1.8)
+    coderay (1.1.2)
+    crb (1.0.1)
+    cucumber (3.1.2)
+      builder (>= 2.1.2)
+      cucumber-core (~> 3.2.0)
+      cucumber-expressions (~> 6.0.1)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (~> 1.3)
+      gherkin (~> 5.1.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (3.2.1)
+      backports (>= 3.8.0)
+      cucumber-tag_expressions (~> 1.1.0)
+      gherkin (~> 5.0)
+    cucumber-expressions (6.0.1)
+    cucumber-tag_expressions (1.1.1)
+    cucumber-wire (0.0.1)
+    diff-lcs (1.3)
+    ffi (1.12.2-x64-mingw32)
+    fig_newton (1.0)
+      yml_reader (>= 0.7)
+    geckodriver-helper (0.24.0)
+      archive-zip (~> 0.7)
+    gherkin (5.1.0)
+    headless (2.3.1)
+    httparty (0.18.0)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    inifile (3.0.0)
+    io-like (0.3.1)
+    jaro_winkler (1.5.4)
+    map (6.6.0)
+    method_source (1.0.0)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2019.1009)
+    mini_mime (1.0.2)
+    mini_portile2 (2.4.0)
+    multi_json (1.14.1)
+    multi_test (0.1.2)
+    multi_xml (0.6.0)
+    nokogiri (1.10.9-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
+    parallel (1.19.1)
+    parallel_tests (2.32.0)
+      parallel
+    parser (2.7.1.0)
+      ast (~> 2.4.0)
+    pry (0.13.0)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    public_suffix (4.0.4)
+    rack (2.2.2)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rails_current (2.1.0)
+      map (~> 6.0)
+    rails_default_url_options (5.0.0)
+    rails_helper (2.2.2)
+      rails_current (>= 1.0)
+      rails_default_url_options (>= 1.0)
+    rainbow (3.0.0)
+    rake (13.0.1)
+    redis (4.1.3)
+    regexp_parser (1.7.0)
+    require_all (3.0.0)
+    rexml (3.2.4)
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
+    rspec-core (3.9.1)
+      rspec-support (~> 3.9.1)
+    rspec-expectations (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-support (3.9.2)
+    rubocop (0.81.0)
+      jaro_winkler (~> 1.5.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      rexml
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    ruby-progressbar (1.10.1)
+    rubyzip (2.3.0)
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
+    sequel (5.31.0)
+    site_prism (3.4.2)
+      addressable (~> 2.5)
+      capybara (~> 3.3)
+      site_prism-all_there (>= 0.3.1, < 1.0)
+    site_prism-all_there (0.3.2)
+    syntax (1.2.2)
+    unicode-display_width (1.7.0)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+    yml_reader (0.7)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  capybara
+  chromedriver-helper (= 1.2.0)
+  crb
+  cucumber
+  ffi
+  fig_newton
+  geckodriver-helper
+  headless
+  httparty
+  inifile
+  parallel_tests
+  pry
+  rails_helper
+  rake
+  redis
+  require_all
+  rspec
+  rubocop
+  selenium-webdriver
+  sequel
+  site_prism
+  syntax
+
+BUNDLED WITH
+   2.0.2

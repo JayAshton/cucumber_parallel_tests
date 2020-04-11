@@ -1,0 +1,2 @@
+test:
+  database: p_test<%= ENV['TEST_ENV_NUMBER'] %>
